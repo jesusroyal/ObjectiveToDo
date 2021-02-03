@@ -15,6 +15,7 @@
 		ECE230CE25CAF653008017D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE230CD25CAF653008017D1 /* Assets.xcassets */; };
 		ECE230D125CAF653008017D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE230CF25CAF653008017D1 /* LaunchScreen.storyboard */; };
 		ECE230D425CAF653008017D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE230D325CAF653008017D1 /* main.m */; };
+		ECE230E725CAF9DC008017D1 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE230E625CAF9DC008017D1 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		ECE230D025CAF653008017D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECE230D225CAF653008017D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE230D325CAF653008017D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECE230E525CAF9DC008017D1 /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		ECE230E625CAF9DC008017D1 /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 				ECE230C125CAF652008017D1 /* SceneDelegate.h */,
 				ECE230C225CAF652008017D1 /* SceneDelegate.m */,
 				ECE230DC25CAF8E5008017D1 /* ViewControllers */,
+				ECE230DE25CAF94D008017D1 /* Model */,
 				ECE230C725CAF652008017D1 /* Main.storyboard */,
 				ECE230CD25CAF653008017D1 /* Assets.xcassets */,
 				ECE230CF25CAF653008017D1 /* LaunchScreen.storyboard */,
@@ -85,6 +89,15 @@
 				ECE230C525CAF652008017D1 /* ViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ECE230DE25CAF94D008017D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECE230E525CAF9DC008017D1 /* Task.h */,
+				ECE230E625CAF9DC008017D1 /* Task.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +173,7 @@
 				ECE230C625CAF652008017D1 /* ViewController.m in Sources */,
 				ECE230C025CAF652008017D1 /* AppDelegate.m in Sources */,
 				ECE230C325CAF652008017D1 /* SceneDelegate.m in Sources */,
+				ECE230E725CAF9DC008017D1 /* Task.m in Sources */,
 				ECE230CC25CAF652008017D1 /* ObjectiveToDo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
